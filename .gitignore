@@ -33,3 +33,6 @@ metals.sbt
 .*.swp
 .swo
 .*.swo
+
+# Scala Native
+/*/*.hnir
