@@ -5,6 +5,7 @@ target/
 .metals
 metals.sbt
 *.worksheet.sc
+.bsp
 
 # Ignore project files for Eclipse
 /.classpath
