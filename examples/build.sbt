@@ -1,6 +1,7 @@
 name := "examples"
 enablePlugins(ScalaNativePlugin)
-scalaVersion := "2.13.4" 
+scalaVersion := "2.11.12" 
 scalacOptions ++= Seq("-feature") 
-nativeMode := "debug"
+nativeMode := "release"
+//nativeMode := "debug"
 nativeGC := "immix"
